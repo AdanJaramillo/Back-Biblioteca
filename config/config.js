@@ -11,7 +11,7 @@ if (process.env.MODE_ENV === 'dev') {
     urlDB = 'mongodb://localhost:27017/biblioteca'; //ambiente desarrollo
 
 } else {
-    urlDB = 'mongodb+srv://admin:1kmfMIExSM5EYPt5@cluster0-toriq.mongodb.net/biblioteca'; //ambiente producción
+    urlDB = 'mongodb+srv://admin:qqHpXLVKOKEF1ZQo@cluster0-02eu7.mongodb.net/test?retryWrites=true&w=majority'; //ambiente producción
 
 }
 
